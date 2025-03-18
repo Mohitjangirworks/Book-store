@@ -1,0 +1,133 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #DAAA63;
+}
+nav{
+    background: linear-gradient(180deg,rgb(192, 188, 188),rgb(220, 219, 219)
+    );
+}
+@media screen and (orientation:landscape) {
+    .hero {
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-around;
+    }
+     .tag{
+        margin-top: 30px;
+     }
+     .srch-div{
+        position: relative;
+        bottom: 25px;
+        width: 200px;
+     }
+}
+
+
+.flip-container {
+    perspective: 1000px;
+    width: 200px;
+    height: 300px;
+}
+
+.flipper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.flip-container:hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.front1,
+.front2,
+.front3,
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.front1 {
+    background: url('/public/images/The\ last\ thing\ He\ told\ me.jpg') center/cover no-repeat;
+}
+
+.front2 {
+    background: url('/public/images/secondbook.jpg') center/cover no-repeat;
+}
+
+.front3 {
+    background: url('/public/images/book3.jpg') center/cover no-repeat;
+}
+
+.back {
+    background: #f8f8f8;
+    transform: rotateY(180deg);
+}
+
+.back a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+@media screen and (orientation:portrait) {
+
+    .tag h1,
+    .tag p,.srch-div {
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+
+    .tag h1 {
+        font-weight: bold;
+    }
+    .flip-container {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .srch-div{
+        bottom: 26px;
+        left:33px;
+    }
+    
+}
+.srch-div input{
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 230px;
+}
+.srch-div{
+    border: 1px solid gray;
+    border-radius: 12px;
+    height: 30px;
+    width: 270px;
+    position: relative;
+   
+    
+}
+footer{
+    
+  background-color: rgb(194, 194, 194);
+    margin-top: 90px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    height: 60px;
+    width: 100vw;
+    line-height: 60px;
+    
+}

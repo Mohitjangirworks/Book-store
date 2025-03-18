@@ -1,0 +1,157 @@
+.srch-div input{
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 230px;
+}
+
+
+@media screen and (orientation:portrait) {
+    .book1 img{
+        float: left;
+        margin-right: 50px;
+        display: block;
+        margin-left: px;
+        border-radius: 5px;
+        
+        height: 250px;
+    }
+    /* .icons{
+        margin-top: 40px;
+        margin-left: 0px;
+    } */
+    .para{
+        font-size: 14px;
+    }
+    .lands{
+        display: none;
+    }
+    .inner{
+        padding-top: 40px;
+        padding-left: 15px;
+    }
+}
+@media screen and (orientation:landscape) {
+    .book1 img{
+    float: left;
+     position: relative;
+    margin-right: 50px;
+    display: block;
+    margin-left: 350px;
+    border-radius: 5px;
+    z-index: 5;
+   
+    
+    
+}
+
+
+.white-box{
+    background-color: white;
+    border-radius: 7px;
+    height: auto;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    bottom: 40px;
+    padding-bottom: 50px;
+
+
+}
+.feed-section{
+    border-radius: 7px;
+    height: auto;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    bottom: 81px;
+    padding-bottom: 0px;
+    padding: 70px 70px 0px 70px;
+}
+.details{
+    margin-top: 130px;
+    margin-left: 250px;
+    position: relative;
+   
+    background: white;
+}
+
+.inner{
+    position: relative;
+    top: 96px;
+    margin-left: 250px;
+    clear: both;
+}
+.icons{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+
+} 
+
+.btn-buy{
+   display: inline-block;
+    background-color: black;
+    border-radius: 10px;
+    color: white ;
+    border: none;
+    height: 40px;
+    width: 130px;
+    text-align: center;
+    align-items: center;
+    padding-top: 6px;
+    position: relative;
+    top: 30px;
+    text-decoration: none;
+    z-index: 9999;
+    
+}
+.btn-back{margin-left: 30px;
+    display: inline-block;
+    background-color: rgb(220, 219, 219);
+    border: 1px solid black;
+    border-radius: 10px;
+    color: rgb(0, 0, 0) ;
+
+    height: 40px;
+    width: 130px;
+    text-align: center;
+    align-items: center;
+    padding-top: 6px;
+    position: relative;
+    top: 30px;
+    text-decoration: none;
+    z-index: 9999;
+}
+.btn-back:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+    
+}
+.btn-buy:hover{
+    background-color: rgb(220, 219, 219);
+    color: rgb(0, 0, 0);
+    border: 1px solid black ;
+    border-radius: 10px;
+    transition: 0.3s;
+    
+}
+summary~span{
+    display: block;
+    margin-left: 15px;
+}
+footer{
+    
+    background-color: rgb(194, 194, 194);
+      margin-top: 20px;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      height: 60px;
+      width: 100%;
+      line-height: 60px;
+      
+  }
+
+
